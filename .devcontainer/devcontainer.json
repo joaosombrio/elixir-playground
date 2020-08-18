@@ -1,0 +1,11 @@
+{
+	"name": "Elixir container",
+	"dockerFile": "Dockerfile",
+	"extensions": [
+		"JakeBecker.elixir-ls",
+		"saratravi.elixir-formatter"
+	],
+	"settings": {
+		"elixirLS.projectDir": "./cards"
+	}
+}
