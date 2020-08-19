@@ -19,6 +19,8 @@ jobs:
       with:
         elixir-version: '1.10.3' # Define the elixir version [required]
         otp-version: '22.3' # Define the OTP version [required]
+    - name: change cwd
+      run: cd src/cards  
     - name: Restore dependencies cache
       uses: actions/cache@v2
       with:
