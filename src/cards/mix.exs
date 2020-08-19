@@ -22,7 +22,8 @@ defmodule Cards.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:remix, "~> 0.0.1", only: :dev}
+      {:remix, "~> 0.0.1", only: :dev},
+      {:ex_doc, "~> 0.22.2"}
     ]
   end
 
